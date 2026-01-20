@@ -21,11 +21,12 @@ public class Registration {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
-    private String clientName;
-    private String numberForEmployer;
-    private String nameEmployerForClient;
-    private LocalDate dateOfRegistration;
-    private String statusForRegistration;
-    private String reasonForRegistration;
-    private String solutionForRegistration;
+    private String clientName; // Sesab
+    private String numberForEmployer; // ex.: 71906-0001
+    private String nameEmployerForClient; // Maria
+    private String numberOsForRegistration; // ex.: OS 123456
+    private LocalDate dateOfRegistration; // ex.: 01/01/2024
+    private String statusForRegistration; // ex.: OK, PEND, ENC
+    private String reasonForRegistration; // Atolamento interno
+    private String solutionForRegistration; // Limpeza realizada
 }
